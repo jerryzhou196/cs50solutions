@@ -19,10 +19,6 @@ int main(void)
                 printf("#");
             }
         }
-        printf("  ");
-        for (int z = 0; z < x+1; z++){
-            printf("#");
-        }  
         printf("\n");
     }
 }
