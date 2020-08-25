@@ -8,7 +8,7 @@ int main(int argc, string argv[]) {
     int hash_map[256] = {0};
     bool checked[256] = {false};
 
-    if (argv[2] != '\0') {
+    if (argv[2] != '\0') { //This might cause a segmentation fault
         printf("Usage: ./substitution key\n");
         return 1;
     }
